@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+.submit.log
+RUNS/
+simtool/.ipynb_checkpoints/
+ExampleTools/UploadTextFile_StevensExample/RUNS
+ExampleTools/DB/.ipynb_checkpoints
+ExampleTools/UploadTextFile_StevensExample/.ipynb_checkpoints
+ExampleTools/UploadTextFile_StevensExample/simtool/.ipynb_checkpoints
+__pycache__/
