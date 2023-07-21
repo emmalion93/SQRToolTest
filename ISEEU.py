@@ -3,7 +3,8 @@ import os
 import warnings
 with warnings.catch_warnings():
     warnings.simplefilter("ignore")
-    
+
+    from IPython.display import clear_output, display, HTML
     import io
     import ipywidgets as widgets
     import matplotlib.pyplot as plt
@@ -13,8 +14,6 @@ with warnings.catch_warnings():
     import pandas as pd
     import seaborn as sns
     
-    from srim import SR, Ion, Layer, Target
-warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 
 user_data_folder = "../../../srqueriertool_data"
 
