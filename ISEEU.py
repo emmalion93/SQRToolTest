@@ -145,9 +145,7 @@ class MultiQuery(widgets.VBox):
                     font-size: 95%;
                     font-weight: bold;
                 }
-                .top_row_dd1 select {
-                    background-color: #AAE1FC !important;
-                }
+
                 .top_row_input input {
                     background-color: #FFE1E1 !important;
                 }
@@ -181,7 +179,7 @@ class MultiQuery(widgets.VBox):
             step = 0.1,
             style = style
         )
-        
+
         self.ion_energy_selector.add_class("top_row_input")
         
         self.add_button = widgets.Button(icon="plus", disabled=False, button_style='success', layout=FixedIconButtonLayout())
