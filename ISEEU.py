@@ -135,6 +135,11 @@ class MultiQuery(widgets.VBox):
                 .layer_input input {
                     background-color: #F1EB9D !important;
                 }
+
+                .hello {
+
+                }
+                
                 .top_row {
                     font-family: Verdana, sans-serif;
                     font-size: 95%;
@@ -158,8 +163,7 @@ class MultiQuery(widgets.VBox):
             </style>
         '''))
         
-        style = {'description_width': 'initial'
-                'hellooo'}
+        style = {'description_width': 'initial'}
         
         self.ion_dropdown = widgets.Dropdown(
             options=data.index.unique(level="ion"), 
