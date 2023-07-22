@@ -2,3 +2,4 @@ pandas==2.0.3
 ipywidgets==8.0.7
 numpy==1.25.1
 seaborn==0.12.2
+voila
