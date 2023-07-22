@@ -158,7 +158,8 @@ class MultiQuery(widgets.VBox):
             </style>
         '''))
         
-        style = {'description_width': 'initial'}
+        style = {'description_width': 'initial'
+                'hellooo'}
         
         self.ion_dropdown = widgets.Dropdown(
             options=data.index.unique(level="ion"), 
